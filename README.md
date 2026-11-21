@@ -1,4 +1,22 @@
-# Proxmox Mini PC Cluster
+<h1 align="center">Proxmox Mini PC Cluster</h1>
+
+<p align="center">A Proxmox HA build guide for used business mini PCs.</p>
+
+<p align="center">
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/funkasaur/proxmox-mini-pc-cluster"></a>
+  <a href="https://github.com/funkasaur/proxmox-mini-pc-cluster/commits/"><img alt="Last commit" src="https://img.shields.io/github/last-commit/funkasaur/proxmox-mini-pc-cluster"></a>
+</p>
+
+<p align="center">
+  <img alt="Cluster nodes" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funkasaur/proxmox-mini-pc-cluster/badges/cluster_nodes.json">
+  <img alt="VMs running" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funkasaur/proxmox-mini-pc-cluster/badges/vms_running.json">
+  <img alt="Containers running" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funkasaur/proxmox-mini-pc-cluster/badges/containers_running.json">
+  <img alt="Uptime days" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funkasaur/proxmox-mini-pc-cluster/badges/uptime_days.json">
+  <img alt="Alerts firing" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funkasaur/proxmox-mini-pc-cluster/badges/alerts_firing.json">
+  <img alt="GPUs" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funkasaur/proxmox-mini-pc-cluster/badges/gpus.json">
+</p>
+
+## Overview
 
 A three-node Proxmox VE HA cluster built from used HP EliteDesk 800 G3 Mini business desktops, plus two standalone
 Proxmox nodes, a Proxmox Backup Server and a standby monitoring box. This is the build guide and the record of
@@ -20,6 +38,19 @@ Built October-November 2026. Versions and measurements carry the date they were 
 
 ---
 
+## Features
+
+- Covers Proxmox HA, storage replication and dual corosync links.
+- Documents Intel AMT, remote console, backups and standby monitoring.
+- Records hardware and operating lessons with dates.
+
+## Repository structure
+
+```text
+proxmox-mini-pc-cluster/
+└── docs/  # Hardware, BIOS, cluster, backup, monitoring and power guides
+```
+
 ## Contents
 
 | | |
@@ -35,6 +66,8 @@ Built October-November 2026. Versions and measurements carry the date they were 
 ---
 
 ## Layout
+
+### Hardware
 
 | Name here | Hardware | Role |
 |---|---|---|
