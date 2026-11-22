@@ -14,6 +14,10 @@
   <img alt="Uptime days" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funkasaur/proxmox-mini-pc-cluster/badges/uptime_days.json">
   <img alt="Alerts firing" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funkasaur/proxmox-mini-pc-cluster/badges/alerts_firing.json">
   <img alt="GPUs" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funkasaur/proxmox-mini-pc-cluster/badges/gpus.json">
+  <img alt="CPU threads" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funkasaur/proxmox-mini-pc-cluster/badges/cpu_threads.json">
+  <img alt="RAM" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funkasaur/proxmox-mini-pc-cluster/badges/ram_gib.json">
+  <img alt="GPU VRAM" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funkasaur/proxmox-mini-pc-cluster/badges/vram_gib.json">
+  <img alt="Targets up" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/funkasaur/proxmox-mini-pc-cluster/badges/targets_up.json">
 </p>
 
 ## Overview
